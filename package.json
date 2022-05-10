@@ -1,0 +1,17 @@
+{
+  "name": "luisbustamante.me",
+  "version": "1.0.0",
+  "description": "[luisbustamante.me](https://luisbustamante.me)",
+  "main": "index.js",
+  "scripts": {
+      "dev": "eleventy --serve --formats=md,jpg,html",
+      "build": "eleventy --formats=md,jpg"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "eleventy-google-fonts": "^0.1.0"
+  }
+}
