@@ -4,14 +4,15 @@
   "description": "[luisbustamante.me](https://luisbustamante.me)",
   "main": "index.js",
   "scripts": {
-      "dev": "eleventy --serve --formats=md,jpg,html",
-      "build": "eleventy --formats=md,jpg"
+    "dev": "eleventy --serve --formats=md,jpg,html",
+    "build": "eleventy --formats=md,jpg"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-plugin-rss": "^1.1.2",
     "eleventy-google-fonts": "^0.1.0"
   }
 }

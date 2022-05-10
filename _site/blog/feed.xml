@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>My Blog</title>
+  <subtitle></subtitle>
+  <link href="" rel="self"/>
+  <link href="https://luisbustamante.me/"/>
+  <updated>2022-05-06T00:00:00Z</updated>
+  <id>https://luisbustamante.me/</id>
+  <author>
+    <name>Luis Bustamante Flores</name>
+    <email>luis.bustaf@gmail.com</email>
+  </author>
+  
+  <entry>
+    <title>This is my first blog post (okno)</title>
+    <link href="https://luisbustamante.me/blog/posts/blog-post-first/"/>
+    <updated>2022-05-05T00:00:00Z</updated>
+    <id>https://luisbustamante.me/blog/posts/blog-post-first/</id>
+    <content type="html">&lt;h1&gt;How does this work?&lt;/h1&gt;
+&lt;p&gt;I don&#39;t really know, but let&#39;s figure it out now...&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://luisbustamante.me/blog/posts/blog-post-first/img/dvd-disc-logo.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>¿Por qué mi sitio está lento?</title>
+    <link href="https://luisbustamante.me/blog/posts/por-que-mi-sitio-esta-lento/"/>
+    <updated>2022-05-06T00:00:00Z</updated>
+    <id>https://luisbustamante.me/blog/posts/por-que-mi-sitio-esta-lento/</id>
+    <content type="html">&lt;h2&gt;Mi sitio está &lt;em&gt;lento&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;Ok, lento, pero con respecto a qué? La mejor forma de entender (y mejorar) el rendimiento de un sitio depende de qué línea base estemos usando al momento de la medición. Necesitamos entender qué medir y qué áreas requieren mejora antes de hacer cualquier cambio.&lt;/p&gt;
+&lt;h2&gt;¿Qué medir?&lt;/h2&gt;
+&lt;p&gt;Existen características habitualmente relacionadas con la velocidad &lt;em&gt;percibida&lt;/em&gt; de un sitio. Tomemos por ejemplo el &lt;strong&gt;tiempo de carga de la página principal&lt;/strong&gt;, y siendo más específicos, el tiempo total desde que ingresamos la URL en el navegador hasta que la primera página termina de verse por completo. Aquí ya tenemos varios procesos en cascada que necesitan completarse:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;El servicio de DNS del usuario encuentra la URL y a qué servidor/IP está asociada&lt;/li&gt;
+&lt;li&gt;Nuestro servidor web recibe la solicitud de contenido y ejecuta las acciones necesarias para conseguir los elementos necesarios para desplegar la página inicial&lt;/li&gt;
+&lt;li&gt;Se ejecutan uno o más procesos para identificar y resolver todo el contenido que debe aparecer en la página&lt;/li&gt;
+&lt;li&gt;Se retorna el documento HTML solicitado con todas las referencias necesarias a imágenes, videos, recursos de estilos y funcionalidad que deben cargarse desde el navegador&lt;/li&gt;
+&lt;li&gt;El navegador del usuario busca las referencias del documento y descarga lo necesario para visualizar finalmente la página principal del sitio (se repite el proceso de búsqueda de contenido para cada referencia)&lt;/li&gt;
+&lt;li&gt;Una vez que se terminan de cargar en el navegador todos los contenidos, el usuario finalmente es capaz de visualizar la página principal del sitio como estaba dispuesto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Además de todos estos pasos, existen varios procesos que ocurren internamente al momento de navegar a una URL y que intervienen en cómo y cuándo se despliega un sitio en el navegador del usuario. Tareas que ocurren en paralelo, mecanismos de validación y preservación de caché, controles de acceso, etc., lo que hace cada vez más complejo asociar el tiempo de carga de un sitio a solo un aspecto.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

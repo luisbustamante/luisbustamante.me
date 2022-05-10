@@ -1,0 +1,17 @@
+{
+    "title": "My Blog",
+    "url": "https://luisbustamante.me/",
+    "language": "es",
+    "description": "No description yet",
+    "feed": {
+      "subtitle": "No description yet",
+      "filename": "feed.xml",
+      "path": "/blog/feed.xml",
+      "id": "https://luisbustamante.me/"
+    },
+    "author": {
+      "name": "Luis Bustamante Flores",
+      "email": "luis.bustaf@gmail.com",
+      "url": "https://luisbustamante.me"
+    }
+  }

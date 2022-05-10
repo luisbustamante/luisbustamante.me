@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Por qué mi sitio está lento?</title>
+    <link rel="stylesheet" href="/css/blog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="global-wrapper">
+        
+<header>
+    <h1>¿Por qué mi sitio está lento?</h1>
+</header>
+<main>
+    <h2>Mi sitio está <em>lento</em></h2>
+<p>Ok, lento, pero con respecto a qué? La mejor forma de entender (y mejorar) el rendimiento de un sitio depende de qué línea base estemos usando al momento de la medición. Necesitamos entender qué medir y qué áreas requieren mejora antes de hacer cualquier cambio.</p>
+<h2>¿Qué medir?</h2>
+<p>Existen características habitualmente relacionadas con la velocidad <em>percibida</em> de un sitio. Tomemos por ejemplo el <strong>tiempo de carga de la página principal</strong>, y siendo más específicos, el tiempo total desde que ingresamos la URL en el navegador hasta que la primera página termina de verse por completo. Aquí ya tenemos varios procesos en cascada que necesitan completarse:</p>
+<ul>
+<li>El servicio de DNS del usuario encuentra la URL y a qué servidor/IP está asociada</li>
+<li>Nuestro servidor web recibe la solicitud de contenido y ejecuta las acciones necesarias para conseguir los elementos necesarios para desplegar la página inicial</li>
+<li>Se ejecutan uno o más procesos para identificar y resolver todo el contenido que debe aparecer en la página</li>
+<li>Se retorna el documento HTML solicitado con todas las referencias necesarias a imágenes, videos, recursos de estilos y funcionalidad que deben cargarse desde el navegador</li>
+<li>El navegador del usuario busca las referencias del documento y descarga lo necesario para visualizar finalmente la página principal del sitio (se repite el proceso de búsqueda de contenido para cada referencia)</li>
+<li>Una vez que se terminan de cargar en el navegador todos los contenidos, el usuario finalmente es capaz de visualizar la página principal del sitio como estaba dispuesto.</li>
+</ul>
+<p>Además de todos estos pasos, existen varios procesos que ocurren internamente al momento de navegar a una URL y que intervienen en cómo y cuándo se despliega un sitio en el navegador del usuario. Tareas que ocurren en paralelo, mecanismos de validación y preservación de caché, controles de acceso, etc., lo que hace cada vez más complejo asociar el tiempo de carga de un sitio a solo un aspecto.</p>
+
+</main>
+<div>
+    
+    
+    Previous Blog Post: <a href="/blog/posts/blog-post-first/">This is my first blog post (okno)</a> | 
+    <a href="/blog" >All posts</a>
+    
+</div>
+    </div>
+</body>
+</html>
