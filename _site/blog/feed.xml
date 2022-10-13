@@ -4,7 +4,7 @@
   <subtitle></subtitle>
   <link href="" rel="self"/>
   <link href="https://luisbustamante.me/"/>
-  <updated>2022-05-06T00:00:00Z</updated>
+  <updated>2022-07-18T00:00:00Z</updated>
   <id>https://luisbustamante.me/</id>
   <author>
     <name>Luis Bustamante Flores</name>
@@ -40,6 +40,19 @@
 &lt;li&gt;Una vez que se terminan de cargar en el navegador todos los contenidos, el usuario finalmente es capaz de visualizar la página principal del sitio como estaba dispuesto.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Además de todos estos pasos, existen varios procesos que ocurren internamente al momento de navegar a una URL y que intervienen en cómo y cuándo se despliega un sitio en el navegador del usuario. Tareas que ocurren en paralelo, mecanismos de validación y preservación de caché, controles de acceso, etc., lo que hace cada vez más complejo asociar el tiempo de carga de un sitio a solo un aspecto.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Qué tipo de Hosting elegir</title>
+    <link href="https://luisbustamante.me/blog/posts/que-tipo-de-hosting-elegir/"/>
+    <updated>2022-07-18T00:00:00Z</updated>
+    <id>https://luisbustamante.me/blog/posts/que-tipo-de-hosting-elegir/</id>
+    <content type="html">&lt;p&gt;Hay distintos tipos: hosting compartido, vps, cloud, servicio administrado, etc.&lt;/p&gt;
+&lt;p&gt;Dependiendo del tipo de contenido, la cantidad de usuarios concurrentes, total de visitas mensuales, se podrá definir correctamente el servicio de hosting más adecuado.&lt;/p&gt;
+&lt;p&gt;Un hosting compartido, que es lo que habitualmente ofrecen los servicios en el mercado, permite tener un sitio con un costo relativamente bajo (hay desde 10 mil pesos anuales en adelante), pero tiene problemas si la cantidad de usuarios aumenta y es limitado en cuanto a opciones de optimización.&lt;/p&gt;
+&lt;p&gt;Un VPS ofrece un poco más de libertad para optimizar el sitio y suele ser una buena opción para sitios con tráfico moderado a alto. Los precios suben dependiendo del proveedor (hay desde 5 usd mensuales pero pueden llegar a costar 100 usd mensuales).&lt;/p&gt;
+&lt;p&gt;Un servicio cloud (Amazon Web Services, Google Cloud, Azure) requiere conocimientos y configuraciones más complejas, su gran ventaja es que con la configuración correcta puede recibir incluso millones de visitas. El costo mensual es flexible, depende de las horas de uso, cantidad de servidores y componentes que se agreguen, lo que es un arma de doble filo: puede resultar en un costo muy bajo (casi cero incluso) o salirse de control (hay empresas que por una mala configuración generan una factura de cientos de miles de usd).&lt;/p&gt;
 </content>
   </entry>
 </feed>
